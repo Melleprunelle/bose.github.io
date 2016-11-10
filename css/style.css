@@ -161,7 +161,7 @@ nav a:hover {
 .center h2 {
     font-family: "Open Sans";
     font-size: 1.5em;
-    font-weight: 600;
+    font-weight: 400;
     transform: skewX(10deg);
     display: block;
     margin: 20px auto;
@@ -172,6 +172,7 @@ nav a:hover {
     padding-bottom: 10px;
     border-bottom: 1px solid white;
     text-shadow: 1px 1px 2px #222;
+    width: 80%;
 }
 
 .button {
@@ -181,7 +182,7 @@ nav a:hover {
     transform: skewX(10deg);
     padding-top: 25px;
     border-radius: 100%;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 button {
@@ -215,10 +216,10 @@ button:hover {
     color: white;
     transform: skewX(10deg);
     font-family: "Open Sans";
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1em;
     line-height: 20px;
-    text-shadow: 1px 1px 2px #222;
+    text-shadow: 1px 1px 0px #111;
 }
 
 .button-droit {
