@@ -8,6 +8,51 @@ body {
     padding: 0;
 }
 
+nav {
+    position: fixed;
+    padding: 20px;
+    color: white;
+    font-family: "Open Sans";
+    font-weight: 600;
+    z-index: 200;
+    display: flex;
+    align-items: center;
+}
+
+nav h1 {
+    display: inline-block;
+    font-size: 1.5em;
+    vertical-align: bottom;
+    margin-right: 74vw;
+}
+
+i {
+    margin-left: 1vw;
+    cursor: pointer;
+}
+
+i:hover {
+    font-size: 1.4em;
+    color: crimson;
+}
+
+nav h2 {
+    float: right;
+    font-size: 1em;
+    vertical-align: bottom;
+    text-transform: lowercase;
+    font-weight: 400;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: crimson;
+}
+
 .overflow {
     overflow: hidden;
     max-width: 100%;
@@ -27,7 +72,7 @@ body {
 
 .oblique:hover {
     width: 60%;
-    transition: 0.8s;
+    transition: 0.2s;
 }
 
 #color-1 {
@@ -102,7 +147,6 @@ body {
     height: 50%;
     padding: -80px;
     opacity: 0;
-    transition: 0s;
 }
 
 .center div {
@@ -157,10 +201,9 @@ button {
 
 button:hover {
     background-color: #222;
-    
     box-shadow: -3px -3px 5px -5px rgba(0, 0, 0, 0.75);
     color: white;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .center p {
